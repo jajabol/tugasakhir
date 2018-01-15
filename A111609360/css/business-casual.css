@@ -1,0 +1,64 @@
+body {
+  font-family: "Sans-Serif", Helvetica, Arial, sans-serif;
+  background: url('../image/bg.jpg') no-repeat center center fixed;
+  background-repeat:no-repeat;
+  background-position:top;
+  background-color:#010101;
+  
+  -o-background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, .text-heading {
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+
+.tagline-atas {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.tagline-bawah {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.25rem;
+}
+
+.text-expanded {
+  letter-spacing: 2px;
+  font-weight:00;
+  color:black;
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-article {
+  background-color: rgba(235, 220, 250, 0.4);
+  
+}
+
+
+
+hr.divider {
+  border-color: #292b2c;
+  max-width: 250px;
+}
+
+.map-container iframe {
+  pointer-events: none;
+}
+
+.map-container iframe.clicked {
+  pointer-events: auto;
+}
